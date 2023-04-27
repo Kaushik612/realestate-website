@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Rubik", sans-serif;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.swiper-horizontal {
+  overflow: visible !important;
+}
+
+.expanded {
+  box-shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25) !important;
+}
+
+/*=============== SCROLL UP ===============*/
+/* Show Scroll Up*/
+.show-scroll {
+  bottom: 2rem;
+}
